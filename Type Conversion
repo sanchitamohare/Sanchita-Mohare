@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main() {
+    int a=5, b=2;
+    float result=a/b;
+    printf("without casting:%f",result);
+    float result2=(float)a/b;
+    printf("with casting:%f",result2);
+    return 0;
+}

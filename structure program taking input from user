@@ -1,0 +1,13 @@
+#include<stdio.h>
+struct student{
+int roll;
+float marks;
+};
+int main(){
+struct student s1;
+printf("enter the roll no. and marks of student s1:");
+scanf("%d %f", &s1.roll, &s1.marks);
+printf("Roll=%d\n",s1.roll);
+printf("Marks=%.2f\n",s1.marks);
+return 0;
+}
